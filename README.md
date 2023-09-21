@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-    Project to help ONGs to find volunteers
+    Project to help ONGs to find volunteers 
 </h4>
 
 ---
