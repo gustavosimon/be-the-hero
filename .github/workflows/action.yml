@@ -1,6 +1,8 @@
 name: Semgrep
 on:
-  push
+  push:
+    branches:
+      master
 jobs:
   semgrep:
     name: semgrep/ci
