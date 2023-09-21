@@ -1,10 +1,6 @@
 name: Semgrep
 on:
-  push:
-    branches:
-      - '**'
-    paths:
-      - .github/workflows/semgrep.yml
+  push
 jobs:
   semgrep:
     name: semgrep/ci
