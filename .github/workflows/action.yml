@@ -1,8 +1,7 @@
 name: Semgrep
 on:
-  push:
-    branches:
-      master
+  schedule:
+    - cron: '55 1 * * *'
 jobs:
   semgrep:
     name: semgrep/ci
